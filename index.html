@@ -5,161 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KZ</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></head>
     <script src="slider.js"></script>
-</head>
 
 <body>
-    <div class="header">
-        <a class="header-button" href="#portfolio">Портфолио</a>
-        <div class="logo"></div>
-        <a class="header-button" href="#about-me">Обо мне</a>
-    </div>
-    <hr>
 
-    <div class="container">
-        <div class="main-content">
-            <div class="photo">
-                <img class="main-photo" src="img/main-ph.png" alt="">
-            </div>
-            <table class="deskription">
-                <tr>
-                    <td class="deskription-item-title">Имя:</td>
-                    <td>Кирилл</td>
-                </tr>
-                <tr>
-                    <td class="deskription-item-title">Фамилия:</td>
-                    <td>Забагрин</td>
-                </tr>
-                <tr>
-                    <td class="deskription-item-title">Возраст:</td>
-                    <td>24</td>
-                </tr>
-                <tr>
-                    <td class="deskription-item-title">Деятельность:</td>
-                    <td><br>Преподаватель веб-дизайна<br> в онлайн школе Hello World</td>
-                </tr>
-                <tr class=>
-                    <td class="deskription-item-title skills">Навыки:</td>
-                    <td class="skills">
-                        <span class="skill">Figma</span>
-                        <span class="skill">HTML</span>
-                        <span class="skill">CSS</span>
-                        <span class="skill">JavaScript</span>
-
-                    </td>
-                </tr>
-            </table>
+    <nav>
+        <div class="nav-left">
+            <a href="#portfolio" class="portfolio-btn">Portfolio</a>
         </div>
-
-        <div class="main-background">
-            <img src="img/background-1.png" alt="" class="bkg-img">
+        <div class="nav-right">
+            <a href="#footer" class="nav-item">Contact</a>
         </div>
-    </div>
+    </nav>
 
-
-    <div class="container">
-        <h2 class="section-title" id="portfolio">Мои работы</h2>
-        <div class="slideshow-container">
-            <div class="mySlides start fade">
-                <div class="numbertext">1 / 6</div>
-                <img src="img/steampunk-screen.png" class="slideshow-img">
-                <div class="text">Магазин авторских изделий в стиле стимпанк</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 6</div>
-                <img src="img/arbat-screen.png" class="slideshow-img">
-                <div class="text">Калькулятор ипотеки для агенства недвижимости</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 6</div>
-                <img src="img/orby-screen.png" class="slideshow-img">
-                <div class="text">Страница оформления интернет-заказа</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 6</div>
-                <img src="img/visit-card.png" class="slideshow-img">
-                <div class="text">Визитки для барбера</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 6</div>
-                <img src="img/playme-cover.png" class="slideshow-img">
-                <div class="text">Обложка каталога в 2-х вариантах</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 6</div>
-                <img src="img/vinyl-cover.png" class="slideshow-img">
-                <div class="text">Обложка сингла музыкальной группы</div>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <header>
+        <div class="header-top">
+            <h1>ZABAGRIN</h1>
         </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
+        <div class="header-bottom">
+            <h2>DESIGN</h2>
         </div>
+    </header>
 
-        <h2 class="section-title">Все проекты</h2>
-        <div class="portfolio-item">
-            <p>набор иконок в 4х вариациях на тему "материнство"</p>
-            <a href="https://www.figma.com/file/a1f4vnADFF843sNQgGEaAX/icons?node-id=0%3A1" target="_blank">
-                посмотреть
-            </a>
-        </div>
+    <div class="portfolio" id="portfolio">
+        <h3 class="section-title">Portfolio</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides start fade">
+                        <div class="numbertext">1 / 9</div>
+                        <img src="img/steampunk-screen.png" class="slideshow-img">
+                        <div class="text">Магазин авторских изделий в стиле стимпанк</div>
+                    </div>
 
-        <div class="portfolio-item">
-            <p>карточка товаров для продуктового магазина</p>
-            <a href="https://www.figma.com/file/7sKgUdn2u1NqsBcatCjD0t/Untitled?node-id=0%3A1" target="_blank">
-                посмотреть
-            </a>
-        </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="img/lable.png" class="slideshow-img">
+                        <div class="text">Логотип музыкального лейбла</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 9</div>
+                        <img src="img/arbat-screen.png" class="slideshow-img">
+                        <div class="text">Калькулятор ипотеки для агенства недвижимости</div>
+                    </div>
 
-        <div class="portfolio-item">
-            <p>баннер для магазина ювелирных изделий</p>
-            <a href="https://www.figma.com/file/2bYTiSoOKBJceuiyacNtFf/Untitled?node-id=0%3A1" target="_blank">
-                посмотреть
-            </a>
-        </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 9</div>
+                        <img src="img/visit-card.png" class="slideshow-img">
+                        <div class="text">Визитки для барбера</div>
+                    </div>
 
-        <div class="portfolio-item">
-            <p>страница оформление заказа в интернет-магазине одежды</p>
-            <a href="https://www.figma.com/file/VDmA02iG1dhwNY2vcEOHiw/Untitled?node-id=0%3A1" target="_blank">
-                посмотреть
-            </a>
-        </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 9</div>
+                        <img src="img/orby-screen.png" class="slideshow-img">
+                        <div class="text">Страница оформления интернет-заказа</div>
+                    </div>
 
-        <div class="portfolio-item">
-            <p>дизайн для лендинга магазина кацелярских кнопок</p>
-            <a href="https://www.figma.com/file/96Ii8QeU4SHXDoSheycCxc/Untitled?node-id=0%3A1" target="_blank">
-                посмотреть
-            </a>
-        </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 9</div>
+                        <img src="img/playme-cover.png" class="slideshow-img">
+                        <div class="text">Обложка каталога в 2-х вариантах</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 9</div>
+                        <img src="img/vinyl-cover.png" class="slideshow-img">
+                        <div class="text">Обложка сингла музыкальной группы</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 9</div>
+                        <img src="img/retrored.png" class="slideshow-img">
+                        <div class="text">Обложка для музыкального альбома</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 9</div>
+                        <img src="img/stickerpack.png" class="slideshow-img">
+                        <div class="text">Набор стикеров "Сырое яйцо"</div>
+                    </div>
 
-        <div class="portfolio-item">
-            <p>концепт магазина авторских изделий</p>
-            <a href="https://www.figma.com/file/UWxhoAmhLo2QGll60ApN8O/Untitled?node-id=0%3A1 ">
-                посмотреть
-            </a>
-        </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                </div>
     </div>
 
-    <div class="container">
-        <div class="about-me" id="about-me">
-            <h2 class="section-title">Обо мне</h2>
-                <img src="img/info.png" class="info">
-        </div>
-    </div>
-
-
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="left-footer">
             <p class="footer-text">kirill.zabagrin20@gmail.com</p>
             <p class="footer-text"><b>+7-(953)-656-21-43</b></p>
@@ -180,7 +122,7 @@
         </div>
     </div>
 
-
+    
 
 
 </body>
